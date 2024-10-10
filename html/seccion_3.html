@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad de la Información</title>
+    <link rel="icon" href="../img/favicon.png" type="image/png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/secciones.css">
+</head>
+<body class="bg-dark text-light">
+
+  <div id="background-blur"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <span class="navbar-brand" id="alumno-text">
+        Alumno: <br> Rayas Alvarado Juan Fernando
+      </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="d-flex align-items-center">
+          <div class="mr-3 d-flex flex-column flex-md-row">
+            <a id="section1-link" class="btn btn-link text-light mr-2" href="./seccion_1.html">Sección 1</a>
+            <a id="section2-link" class="btn btn-link text-light mr-2" href="./seccion_2.html">Sección 2</a>
+            <a id="section3-link" class="btn btn-link text-light mr-2" href="./seccion_3.html">Sección 3</a>
+          </div>
+          <a href="principal.html" class="btn btn-primary mr-3">Inicio</a>
+          <img src="../img/user.png" alt="Perfil" class="img-fluid rounded-circle" id="perfil-img" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="perfil-img">
+            <a class="dropdown-item" href="./seccion_1.html">Sección 1</a>
+            <a class="dropdown-item" href="./seccion_2.html">Sección 2</a>
+            <a class="dropdown-item" href="./seccion_3.html">Sección 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Contenido -->
+  <div class="container mt-5 pt-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="title">Principios de Seguridad de la Información</h1>
+      </div>
+    </div>
+
+    <!-- Sección 1 -->
+    <div class="section-container mt-5">
+      <h2>Accesibilidad</h2>
+      <div class="row mt-3">
+        <div class="col-md-8">
+          <p>La accesibilidad se refiere a la capacidad de los usuarios autorizados para acceder a la información y los recursos del sistema de manera oportuna y eficiente. Esto implica que la información debe estar disponible y en un formato que facilite su uso, permitiendo que los usuarios realicen sus tareas sin obstáculos. Para lograr la accesibilidad, las organizaciones deben implementar tecnologías de asistencia y diseñar interfaces intuitivas que consideren la diversidad de los usuarios, promoviendo así la inclusión y la equidad en el acceso a la información.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="../img/acce.jpg" alt="Ataques Cibernéticos" class="img-fluid mx-auto my-3" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 2 -->
+    <div class="section-container mt-5">
+      <h2>Confidencialidad</h2>
+      <div class="row mt-3">
+        <div class="col-md-4 text-center">
+          <img src="../img/confide.jpg" alt="Confidencialidad" class="img-fluid mx-auto my-3" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-md-8">
+          <p>La confidencialidad es el principio de proteger la información sensible de accesos no autorizados, asegurando que solo las personas o entidades con el derecho o la necesidad de conocer cierta información puedan acceder a ella. Para mantener la confidencialidad, se utilizan técnicas como el cifrado y políticas de control de acceso que regulan quién puede ver o manejar información crítica. La violación de la confidencialidad puede resultar en graves consecuencias, como el robo de identidad o la divulgación de información privilegiada, lo que hace esencial implementar medidas de seguridad efectivas.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 3 -->
+    <div class="section-container mt-5">
+      <h2>Disponibilidad</h2>
+      <div class="row mt-3">
+        <div class="col-md-8">
+          <p>La disponibilidad se refiere a la garantía de que los sistemas, aplicaciones y datos estén accesibles y utilizables por los usuarios autorizados en el momento que los necesiten. Este principio implica minimizar el tiempo de inactividad y asegurar que los recursos estén operativos, lo que se logra mediante copias de seguridad, redundancias y planes de recuperación ante desastres. Mantener la disponibilidad es crucial para la continuidad del negocio, ya que cualquier interrupción puede afectar la productividad y la satisfacción del cliente.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="../img/disponi.png" alt="Principios de Seguridad" class="img-fluid mx-auto my-3" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 4 -->
+    <div class="section-container mt-5">
+      <h2>Autenticación</h2>
+      <div class="row mt-3">
+        <div class="col-md-4 text-center">
+          <img src="../img/autenticacion.jpg" alt="Principios de Seguridad" class="img-fluid mx-auto my-3" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-md-8">
+          <p>La autenticación es el proceso mediante el cual se verifica la identidad de un usuario, sistema o dispositivo antes de permitir el acceso a recursos y datos. Este principio es fundamental en la seguridad de la información y se implementa mediante métodos como contraseñas, autenticación biométrica y autenticación multifactor, que proporcionan diferentes niveles de seguridad. La gestión adecuada de las credenciales y la formación de los usuarios sobre mejores prácticas son vitales para evitar accesos no autorizados y proteger los activos de información.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 5 -->
+    <div class="section-container mt-5">
+      <h2>Integridad</h2>
+      <div class="row mt-3">
+        <div class="col-md-8">
+          <p>La integridad se refiere a la precisión y consistencia de la información, garantizando que los datos no sean alterados de manera no autorizada a lo largo de su ciclo de vida. Para mantener la integridad, se utilizan controles como la suma de verificación y registros de auditoría que permiten detectar cambios no autorizados. Este principio es crítico en contextos donde las decisiones se basan en datos, ya que cualquier alteración podría tener consecuencias significativas en la organización y su reputación.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="../img/integridad.png" alt="Principios de Seguridad" class="img-fluid mx-auto my-3" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección 6 -->
+    <div class="section-container mt-5">
+      <h2>Control de Acceso</h2>
+      <div class="row mt-3">
+        <div class="col-md-4 text-center">
+          <img src="../img/control.png" alt="Principios de Seguridad" class="img-fluid mx-auto my-3" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-md-8">
+          <p>El control de acceso es el proceso de restringir y gestionar quién puede acceder a los recursos y la información dentro de un sistema. Este principio es esencial para proteger la confidencialidad, integridad y disponibilidad de los datos, ya que asegura que solo los usuarios autorizados puedan realizar ciertas acciones. Mediante la implementación de políticas de control de acceso basadas en roles o atributos, las organizaciones pueden minimizar el riesgo de accesos no autorizados y garantizar un entorno de seguridad robusto.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+<script>
+    function setActiveLink() {
+      const currentUrl = window.location.href;
+      const links = document.querySelectorAll('.navbar .btn-link');
+  
+      links.forEach(link => {
+        if (link.href === currentUrl) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+  
+    document.addEventListener('DOMContentLoaded', setActiveLink);
+</script>

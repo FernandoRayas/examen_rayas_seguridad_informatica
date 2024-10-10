@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#background-blur {
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(8px);
+  opacity: 0.7;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+#perfil-img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Estilos del contenido principal */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+/* Ajustes de espaciado */
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.pt-5 {
+  padding-top: 3rem !important;
+}
+
+.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Secciones */
+.section-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section-container h2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
+.section-container p {
+  font-size: 1.1rem;
+  color: #dcdcdc;
+}
+
+/* dispositivos móviles */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .section-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-container h3 {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+.navbar .btn-link.active {
+  font-weight: bold;
+  background-color: #404370;
+}
+
+/* dispositivos móviles */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 0.60rem;
+  }
+  .section-container p {
+    font-size: 0.8rem;
+    color: #dcdcdc;
+  }
+}
